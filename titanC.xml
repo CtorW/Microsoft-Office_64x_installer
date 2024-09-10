@@ -1,6 +1,6 @@
 <Configuration ID="89ed1884-1752-4100-97db-2bd06beb9d4b">
   <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
-    <Product ID="ProPlus2024Retail" PIDKEY="FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH">
+    <Product ID="HomeBusiness2024Retail" PIDKEY="FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH">
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Lync" />
