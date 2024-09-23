@@ -42,7 +42,7 @@ set /p type="pick your System type >>"
 
 if %type%==1 (
     echo Installing 64 bit...
-    file_version1 /configure https://raw.githubusercontent.com/CtorW/Microsoft-Office_64x_installer/uno/titanCx64.xml
+    file_version1 /configure https://raw.githubusercontent.com/CtorW/ms-office-installer/refs/heads/uno/titanCx64.xml
     cls
     echo Installation completed successfully! 
     pause
@@ -51,7 +51,7 @@ if %type%==1 (
 
 if %type%==2 (
     echo Installing 32 bit...
-    file_version1 /configure https://github.com/CtorW/Microsoft-Office_64x_installer/blob/uno/titanCx32.xml
+    file_version1 /configure https://raw.githubusercontent.com/CtorW/ms-office-installer/refs/heads/uno/titanCx32.xml
     cls
     echo Installation completed successfully! 
     pause
